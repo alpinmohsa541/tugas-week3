@@ -1,4 +1,4 @@
-const nav = () => {
+const About = () => {
     return (
         <div>
 
@@ -6,4 +6,4 @@ const nav = () => {
     );
 };
 
-export default nav;
+export default About;
