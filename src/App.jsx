@@ -1,10 +1,13 @@
 import Nav from "./components/nav"
+import Home from "./components/home"
 
 const App = () => {
   return (
     <>
-     <div className="bg-slate-900">
+     <div className="bg-desertSand">
       <Nav/>
+      <Home/>
+      
      </div>
     </>
   );
