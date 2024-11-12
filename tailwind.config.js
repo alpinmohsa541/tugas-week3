@@ -18,7 +18,7 @@ export default {
       customGray: 'rgb(128, 128, 128)',
       customWhite: 'rgb(255, 255, 255)',
       customBlack: 'rgb(0, 0, 0)',
-      desertSand: '228, 187, 151',
+      customSand: '228, 187, 151',
       seasheel: '254, 245, 239',
       lavender: '214, 227, 248',
     },
