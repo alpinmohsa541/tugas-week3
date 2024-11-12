@@ -17,7 +17,7 @@ const Home = () => {
           </p>
         </div>
         {/* Foto Profil */}
-        <div className="w-48 h-48 md:w-60 md:h-60 bg-gray-300 rounded-full overflow-hidden shadow-lg">
+        <div className="w-48 h-48 md:w-60 md:h-60 rounded-full overflow-hidden shadow-lg">
           <img
             src="https://jak.polmed.ac.id/wp-content/uploads/sites/23/2020/12/author-3.jpg"
             alt="Profile"

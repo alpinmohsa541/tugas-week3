@@ -21,11 +21,11 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen py-16 px-4" style={{ backgroundColor: "rgb(254, 245, 239)" }}>
+    <div id="Projects" className="min-h-screen py-16 px-4" style={{ backgroundColor: "rgb(254, 245, 239)" }}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">My Projects</h2>
         <p className="text-gray-600 mb-12">
-        Solving user & business problems since last 15+ years.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
         {/* Kartu Proyek dengan Posisi Silang */}
@@ -50,8 +50,12 @@ const Projects = () => {
                 </a>
               </div>
               <div className="md:w-1/2 p-6">
-                {/* Placeholder untuk gambar proyek, bisa diganti dengan gambar proyek asli */}
-                <div className="w-full h-48 bg-gray-300 rounded-lg shadow-md"></div>
+                {/* Menampilkan gambar proyek */}
+                <img
+                  src={project.link}
+                  alt={project.title}
+                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                />
               </div>
             </div>
           ))}

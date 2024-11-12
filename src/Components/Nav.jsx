@@ -4,11 +4,14 @@ import { Link } from "react-scroll";
 import { CiMenuFries } from "react-icons/ci";
  
 
+
+
 const Nav = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    
     const content = <>
-    <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
+    <div id="Nav" className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
         <ul className="text-center text-xl p-20">
             <Link spy={true} smooth={true} to="Home">
                 <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
@@ -48,7 +51,7 @@ const Nav = () => {
                         <Link spy={true} smooth={true} to="Services">
                             <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Services</li>
                         </Link>
-                        <Link spy={true} smooth={true} to="Projects">
+                        <Link spy={true} smooth={true} to="Projects" onClick={handleClick}>
                             <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
                         </Link>
                         <Link spy={true} smooth={true} to="Contact">
