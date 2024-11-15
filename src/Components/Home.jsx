@@ -15,7 +15,7 @@ const Home = () => {
 
           {/* Deskripsi Singkat */}
           <p className="text-gray-700 max-w-md mb-6">
-            I'm a passionate developer specializing in building exceptional web applications. With experience in React, Tailwind CSS, and modern JavaScript frameworks, I strive to deliver responsive and user-friendly interfaces.
+            I`m a passionate developer specializing in building exceptional web applications. With experience in React, Tailwind CSS, and modern JavaScript frameworks, I strive to deliver responsive and user-friendly interfaces.
           </p>
         </div>
         
