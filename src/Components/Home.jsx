@@ -2,14 +2,15 @@ import pasPoto from '../assets/pas-poto-alpin2.jpg';
 
 const Home = () => {
   return (
+    <>
     <div className="relative h-screen bg-gray-100 flex items-center justify-center overflow-hidden">
       <div className="relative flex flex-col md:flex-row items-center md:items-start text-center md:text-left p-8 space-y-6 md:space-y-0 md:space-x-8">
         {/* Informasi Teks */}
         <div>
           {/* Nama dan Judul */}
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">John Doe</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">Alpin Apriliansyah Mohsa</h1>
           <p className="text-lg text-gray-600 mb-4">
-            Software Developer | Frontend Enthusiast
+            Full Stack Developer | Quality Assurance Enthusiast
           </p>
 
           {/* Deskripsi Singkat */}
@@ -28,6 +29,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
