@@ -1,19 +1,19 @@
 import Nav from "./components/nav"
 import Home from "./components/home"
 import Projects from "./components/projects";
-import Wave from "./components/wave";
+import Contact from "./components/contact";
+
 
 const App = () => {
   return (
     <>
-     <div style={{ backgroundColor: "rgb(228, 187, 151)" }}>
+     <div>
      <section id="Nav">
         <Nav/>
-        <Wave/>
      </section>
       <Home/>
       <Projects/>
-      
+      <Contact/>
      </div>
     </>
   );
