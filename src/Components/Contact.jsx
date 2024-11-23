@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="mb-8 md:w-1/2 md:mb-0">
           <h2 className="mb-4 text-2xl font-bold">Let`s work together</h2>
           <p className="flex items-center justify-center h-32 mb-6 text-gray-600 w-96">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+            Unlock the potential of collaboration and take your ideas to the next level. I`m here to help you achieve your goals. Whether you`re looking for a fresh website, a custom application, or strategic insights to grow your business, let`s create something extraordinary together.
           </p>
           {/* Social Icons */}
           <div className="flex space-x-4">
@@ -52,7 +52,7 @@ const Contact = () => {
             ></textarea>
             <button
                 type="submit"
-                className="w-48 px-2 py-3 font-bold text-black border border-gray-300 rounded-md hover:bg-gray-100"
+                className="w-48 px-2 py-3 font-bold text-black border rounded-md"
                 >
                 Submit
             </button>

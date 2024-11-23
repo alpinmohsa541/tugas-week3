@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="mb-8 text-4xl font-bold text-gray-800">My Projects</h2>
         <p className="mb-12 text-gray-600">
-          Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Here are some of my featured projects, including practical applications, professional portfolios, and e-commerce platforms.
         </p>
 
         {/* Kartu Proyek dengan Posisi Silang */}
@@ -44,7 +44,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-blue-600 hover:text-blue-800"
+                  className="w-48 px-2 py-3 font-medium text-blue-600 border rounded-md hover:text-blue-800"
                 >
                   View Project
                 </a>

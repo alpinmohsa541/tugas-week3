@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export function AboutContent({ heading, content }) {
   return (
-    <article className="flex flex-col my-auto min-w-[240px] w-[821px] max-md:max-w-full">
+    <article className="flex flex-col my-auto min-w-[240px] w-[821px] max-md:max-w-full" >
       <header className="text-gray-800">
         <h1 className="mt-3 text-6xl font-bold leading-tight max-md:text-4xl">
           {heading}
