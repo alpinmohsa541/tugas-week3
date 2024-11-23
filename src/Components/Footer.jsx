@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Navigasi Footer */}
+        {/* Navigasi Footer
         <ul className="flex flex-wrap justify-center mt-4 space-x-6 md:mt-0">
           <li>
             <a href="About" className="hover:text-gray-300">
@@ -32,7 +32,7 @@ const Footer = () => {
               Contact
             </a>
           </li>
-        </ul>
+        </ul> */}
 
         {/* Media Sosial */}
           {/* Social Icons */}
