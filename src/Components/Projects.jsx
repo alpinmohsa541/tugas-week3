@@ -21,10 +21,10 @@ const projectsData = [
 
 const Projects = () => {
   return (
-    <div id="Projects" className="min-h-screen py-16 px-4" style={{ backgroundColor: "rgb(254, 245, 239)" }}>
+    <div id="Projects" className="min-h-screen px-4 py-16">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8">My Projects</h2>
-        <p className="text-gray-600 mb-12">
+        <h2 className="mb-8 text-4xl font-bold text-gray-800">My Projects</h2>
+        <p className="mb-12 text-gray-600">
           Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
@@ -37,24 +37,24 @@ const Projects = () => {
                 index % 2 === 0 ? 'md:flex-row-reverse' : ''
               }`}
             >
-              <div className="md:w-1/2 p-6">
-                <h3 className="text-2xl font-semibold text-gray-800 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
+              <div className="p-6 md:w-1/2">
+                <h3 className="mb-2 text-2xl font-semibold text-gray-800">{project.title}</h3>
+                <p className="mb-4 text-gray-600">{project.description}</p>
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 font-medium"
+                  className="font-medium text-blue-600 hover:text-blue-800"
                 >
                   View Project
                 </a>
               </div>
-              <div className="md:w-1/2 p-6">
+              <div className="p-6 md:w-1/2">
                 {/* Menampilkan gambar proyek */}
                 <img
                   src={project.link}
                   alt={project.title}
-                  className="w-full h-48 object-cover rounded-lg shadow-md"
+                  className="object-cover w-full h-48 rounded-lg shadow-md"
                 />
               </div>
             </div>

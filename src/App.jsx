@@ -2,6 +2,7 @@ import Nav from "./components/nav"
 import Home from "./components/home"
 import Projects from "./components/projects";
 import Contact from "./components/contact";
+import AboutSection from "./Components/AboutSection";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Nav/>
      </section>
       <Home/>
+      <AboutSection />
       <Projects/>
       <Contact/>
      </div>

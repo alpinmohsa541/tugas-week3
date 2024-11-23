@@ -11,51 +11,45 @@ const Nav = () => {
     const handleClick = () => setClick(!click);
     
     const content = <>
-    <div id="Nav" className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
-        <ul className="text-center text-xl p-20">
+    <div id="Nav" className="absolute left-0 right-0 block w-full transition lg:hidden top-16 bg-slate-900">
+        <ul className="p-20 text-xl text-center">
             <Link spy={true} smooth={true} to="Home">
-                <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
+                <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
             </Link>
             <Link spy={true} smooth={true} to="About">
-                <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
-            </Link>
-            <Link spy={true} smooth={true} to="Services">
-                <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Services</li>
+                <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">About</li>
             </Link>
             <Link spy={true} smooth={true} to="Projects">
-                <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Projects</li>
+                <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Projects</li>
             </Link>
             <Link spy={true} smooth={true} to="Contact">
-                <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
+                <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
             </Link>
         </ul>
     </div>
     </>
     return (
        <nav>
-            <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4">
+            <div className="z-50 flex justify-between px-20 py-4 text-white h-10vh lg:py-5">
                 <div className="flex items-center flex-1">
-                    <span className="text-3x1 font-bold font-serif -translate-x-10">
+                    <span className="font-serif font-bold -translate-x-10 text-3x1">
                         Alpin Apriliansyah Mohsa
                     </span>
                 </div>
-                <div className="lg:flex md:flex lg flex-1 items center justify-end font-normal hidden">
+                <div className="justify-end flex-1 hidden font-normal lg:flex md:flex lg items center">
                     <div className="flex-10">
                         <ul className="flex gap-8 mr-16 text-[18px]">
                         <Link spy={true} smooth={true} to="Home">
-                            <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
+                            <li className="transition border-b-2 cursor-pointer gover:text-fuchsia-600 border-slate-900 hover:border-fuchsia-600">Home</li>
                         </Link>
                         <Link spy={true} smooth={true} to="About">
-                            <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
-                        </Link>
-                        <Link spy={true} smooth={true} to="Services">
-                            <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Services</li>
+                            <li className="transition border-b-2 cursor-pointer gover:text-fuchsia-600 border-slate-900 hover:border-fuchsia-600">About</li>
                         </Link>
                         <Link spy={true} smooth={true} to="Projects" onClick={handleClick}>
-                            <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
+                            <li className="transition border-b-2 cursor-pointer gover:text-fuchsia-600 border-slate-900 hover:border-fuchsia-600">Projects</li>
                         </Link>
                         <Link spy={true} smooth={true} to="Contact">
-                            <li className="gover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
+                            <li className="transition border-b-2 cursor-pointer gover:text-fuchsia-600 border-slate-900 hover:border-fuchsia-600">Contact</li>
                         </Link>
                         </ul>
                     </div>
